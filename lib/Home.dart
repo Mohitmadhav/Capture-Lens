@@ -63,13 +63,13 @@ class _MyHomePageState extends State<Home> {
           backgroundColor: Colors.deepPurpleAccent,
           actions: [
             IconButton(icon: Icon(Icons.share), onPressed: () async {}),
-            IconButton(
-                icon: Icon(Icons.delete),
-                onPressed: () {
-                  setState(() {
-                    _image.delete();
-                  });
-                })
+            // IconButton(
+            //     icon: Icon(Icons.delete),
+            //     onPressed: () {
+            //       setState(() {
+            //         _image.delete();
+            //       });
+            //     })
           ],
           centerTitle: true,
           title: Text(
